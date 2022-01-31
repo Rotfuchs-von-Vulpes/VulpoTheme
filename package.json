@@ -1,0 +1,21 @@
+{
+    "name": "vulpotheme",
+    "displayName": "vulpotheme",
+    "description": "Theme for Vulpo made by a Vulpo",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "vulpotheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/vulpotheme-color-theme.json"
+            }
+        ]
+    }
+}
